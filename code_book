@@ -1,0 +1,12 @@
+Xtrain – training dataset
+
+Xtest – test dataset
+
+XTrainTest – train and test datasets combined into one dataframe
+
+features – list of all features as in features.txt
+
+mean_positions – contains positions (index) of variables containing string “mean” within the second column of the “features” data frame – position of all the average labels
+
+std_positions - contains positions (index) of variables containing string “std” within the second column of the “features” data frame – position of all the standard deviation labels
+
