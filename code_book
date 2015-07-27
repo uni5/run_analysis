@@ -1,10 +1,13 @@
-Xtrain – training dataset
+Variables and summaries calculated
+=========================================
 
-Xtest – test dataset
+Xtrain – training dataset (“train/X_train.txt”)
+
+Xtest – test dataset (“test/X_test.txt”)
 
 XTrainTest – train and test datasets combined into one dataframe
 
-features – list of all features as in features.txt
+features – list of all features as in ”features.txt”
 
 mean_positions – contains positions (index) of variables containing string “mean” within the second column of the “features” data frame – position of all the average labels
 
@@ -33,3 +36,8 @@ var_names – stores the names of the variables
 new_var_names – used to create neat labels for variable names from “var_names” 
 
 tidy_data_set – a tidy data set created as a product of running run_analysis.R script
+
+The variables listed in the tidy_data_set are:
+=========================================
+"Activity" "Subject_ID", "Time_of_Body_Acceleration_mean_X", "Time_of_Body_Acceleration_mean_Y", "Time_of_Body_Acceleration_mean_Z", "Time_of_Body_Acceleration_std_X", "Time_of_Body_Acceleration_std_Y", "Time_of_Body_Acceleration_std_Z", "Time_of_Gravity_Acceleration_mean_X", "Time_of_Gravity_Acceleration_mean_Y", "Time_of_Gravity_Acceleration_mean_Z", "Time_of_Gravity_Acceleration_std_X", "Time_of_Gravity_Acceleration_std_Y", "Time_of_Gravity_Acceleration_std_Z", "Time_of_Body_Acceleration_Jerk_mean_X", "Time_of_Body_Acceleration_Jerk_mean_Y", "Time_of_Body_Acceleration_Jerk_mean_Z", "Time_of_Body_Acceleration_Jerk_std_X", "Time_of_Body_Acceleration_Jerk_std_Y", "Time_of_Body_Acceleration_Jerk_std_Z", "Time_of_Body_Gyroscope_mean_X", "Time_of_Body_Gyroscope_mean_Y", "Time_of_Body_Gyroscope_mean_Z", "Time_of_Body_Gyroscope_std_X", "Time_of_Body_Gyroscope_std_Y", "Time_of_Body_Gyroscope_std_Z", "Time_of_Body_Gyroscope_Jerk_mean_X", "Time_of_Body_Gyroscope_Jerk_mean_Y", "Time_of_Body_Gyroscope_Jerk_mean_Z", "Time_of_Body_Gyroscope_Jerk_std_X", "Time_of_Body_Gyroscope_Jerk_std_Y", "Time_of_Body_Gyroscope_Jerk_std_Z", "Time_of_Body_Acceleration_Magnitude_mean", "Time_of_Body_Acceleration_Magnitude_std", "Time_of_Gravity_Acceleration_Magnitude_mean", "Time_of_Gravity_Acceleration_Magnitude_std", "Time_of_Body_Acceleration_Jerk_Magnitude_mean", "Time_of_Body_Acceleration_Jerk_Magnitude_std", "Time_of_Body_Gyroscope_Magnitude_mean", "Time_of_Body_Gyroscope_Magnitude_std", "Time_of_Body_Gyroscope_Jerk_Magnitude_mean", "Time_of_Body_Gyroscope_Jerk_Magnitude_std", "Frequency_of_Body_Acceleration_mean_X", "Frequency_of_Body_Acceleration_mean_Y", "Frequency_of_Body_Acceleration_mean_Z", "Frequency_of_Body_Acceleration_std_X", "Frequency_of_Body_Acceleration_std_Y", "Frequency_of_Body_Acceleration_std_Z", "Frequency_of_Body_Acceleration_mean_frequency_X", "Frequency_of_Body_Acceleration_mean_frequency_Y", "Frequency_of_Body_Acceleration_mean_frequency_Z", "Frequency_of_Body_Acceleration_Jerk_mean_X", "Frequency_of_Body_Acceleration_Jerk_mean_Y", "Frequency_of_Body_Acceleration_Jerk_mean_Z", "Frequency_of_Body_Acceleration_Jerk_std_X", "Frequency_of_Body_Acceleration_Jerk_std_Y", "Frequency_of_Body_Acceleration_Jerk_std_Z", "Frequency_of_Body_Acceleration_Jerk_mean_frequency_X", "Frequency_of_Body_Acceleration_Jerk_mean_frequency_Y", "Frequency_of_Body_Acceleration_Jerk_mean_frequency_Z", "Frequency_of_Body_Gyroscope_mean_X", "Frequency_of_Body_Gyroscope_mean_Y", "Frequency_of_Body_Gyroscope_mean_Z", "Frequency_of_Body_Gyroscope_std_X", "Frequency_of_Body_Gyroscope_std_Y", "Frequency_of_Body_Gyroscope_std_Z", "Frequency_of_Body_Gyroscope_mean_frequency_X", "Frequency_of_Body_Gyroscope_mean_frequency_Y", "Frequency_of_Body_Gyroscope_mean_frequency_Z", "Frequency_of_Body_Acceleration_Magnitude_mean", "Frequency_of_Body_Acceleration_Magnitude_std", "Frequency_of_Body_Acceleration_Magnitude_mean_frequency", "Frequency_of_Body_Body_Acceleration_Jerk_Magnitude_mean", "Frequency_of_Body_Body_Acceleration_Jerk_Magnitude_std", "Frequency_of_Body_Body_Acceleration_Jerk_Magnitude_mean_frequency", "Frequency_of_Body_Body_Gyroscope_Magnitude_mean", "Frequency_of_Body_Body_Gyroscope_Magnitude_std", "Frequency_of_Body_Body_Gyroscope_Magnitude_mean_frequency", "Frequency_of_Body_Body_Gyroscope_Jerk_Magnitude_mean", "Frequency_of_Body_Body_Gyroscope_Jerk_Magnitude_std", and "Frequency_of_Body_Body_Gyroscope_Jerk_Magnitude_mean_frequency"
+
