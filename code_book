@@ -10,3 +10,26 @@ mean_positions – contains positions (index) of variables containing string “
 
 std_positions - contains positions (index) of variables containing string “std” within the second column of the “features” data frame – position of all the standard deviation labels
 
+positions – combination of the mean_positions and std_positions in an ascending order
+
+mean_and_std_XTrainTest – a subset of XTrainTest dataframe that contains only the mean and standard deviation variables
+
+train_subject – data frame containing “subject_train.txt” dataset
+
+test_subject – data frame containing “subject_test.txt” dataset
+
+subject – combination of train_subject and test_subject datasets
+
+train_label – training labels (“y_train.txt”)
+
+test_label – test labels (“y_test.txt”)
+
+TrainTest_label – all labels (train_label and test_label combined)
+
+activity_labels – activity labels (“activity_labels.txt”)
+
+var_names – stores the names of the variables
+
+new_var_names – used to create neat labels for variable names from “var_names” 
+
+tidy_data_set – a tidy data set created as a product of running run_analysis.R script
